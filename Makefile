@@ -23,3 +23,6 @@ frontend-yarn-install:
 
 eslint:
 	docker-compose run --rm frontend-node-cli npx eslint --init
+
+webpack-install:
+	docker-compose run --rm frontend-node-cli npx webpack
