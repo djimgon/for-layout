@@ -29,3 +29,6 @@ webpack-install:
 
 typescript-install:
 	docker-compose run --rm frontend-node-cli yarn add typescript --dev
+
+laravel-mix-install:
+	docker-compose run --rm frontend-node-cli yarn add laravel-mix --dev
