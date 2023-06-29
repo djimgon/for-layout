@@ -32,3 +32,6 @@ typescript-install:
 
 laravel-mix-install:
 	docker-compose run --rm frontend-node-cli yarn add laravel-mix --dev
+
+mix:
+	docker-compose run --rm frontend-node-cli npx mix
