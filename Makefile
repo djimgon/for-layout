@@ -20,3 +20,6 @@ frontend-init: frontend-yarn-install
 
 frontend-yarn-install:
 	docker-compose run --rm frontend-node-cli yarn install
+
+eslint:
+	docker-compose run --rm frontend-node-cli npx eslint --init
