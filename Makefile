@@ -38,3 +38,6 @@ bootstrap-install:
 
 mix:
 	docker-compose run --rm frontend-node-cli npx mix
+
+npm-run-dev:
+	docker-compose run --rm frontend-node-cli npm run dev
