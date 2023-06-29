@@ -26,3 +26,6 @@ eslint:
 
 webpack-install:
 	docker-compose run --rm frontend-node-cli yarn add webpack --dev
+
+typescript-install:
+	docker-compose run --rm frontend-node-cli yarn add typescript --dev
